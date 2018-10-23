@@ -8,9 +8,9 @@ set cpo&vim
 
 "----- Highlights {{{
 function! s:SetHighlight() abort
-  highlight ShowMotion_SmallMotionGroup cterm=bold ctermfg=201
-  highlight ShowMotion_BigMotionGroup   cterm=bold ctermfg=201
-  highlight ShowMotion_CharSearchGroup  cterm=bold ctermfg=201
+  highlight ShowMotion_SmallMotionGroup cterm=bold ctermfg=13
+  highlight ShowMotion_BigMotionGroup   cterm=bold ctermfg=13
+  highlight ShowMotion_CharSearchGroup  cterm=bold ctermfg=13
 endfunction
 call s:SetHighlight()
 augroup showmotion-highlight
